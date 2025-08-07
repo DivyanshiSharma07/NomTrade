@@ -14,6 +14,7 @@ import Portfolio from "./components/Portfolio";
 import Reports from "./components/Reports";
 import Analytics from "./components/Analytics";
 import TestTrading from "./components/TestTrading";
+import AIChatbot from "./components/AIChatbot";
 import ReportsAnalytics from "./pages/ReportsAnalytics";
 import News from "./components/News";
 
@@ -128,6 +129,14 @@ function App() {
             element={
               <PrivateRoute>
                 <TestTrading />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/ai"
+            element={
+              <PrivateRoute>
+                <AIChatbot />
               </PrivateRoute>
             }
           />

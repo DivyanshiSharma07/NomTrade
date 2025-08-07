@@ -1,9 +1,9 @@
 .portfolio-summary {
   background: linear-gradient(135deg, #ffffff 0%, #f8fbff 100%);
-  border-radius: 8px;
-  padding: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  margin: 10px 0;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  margin: 20px 0;
   border: 1px solid rgba(59, 130, 246, 0.1);
   position: relative;
   overflow: hidden;
@@ -15,29 +15,29 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 4px;
   background: #e2e8f0;
-  border-radius: 8px 8px 0 0;
+  border-radius: 16px 16px 0 0;
 }
 
 .portfolio-summary h3 {
-  margin: 0 0 12px 0;
+  margin: 0 0 24px 0;
   color: #1e293b;
-  font-size: 1rem;
+  font-size: 1.5em;
   font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 12px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .portfolio-summary.loading,
 .portfolio-summary.error {
-  padding: 24px;
+  padding: 48px;
   text-align: center;
   color: #64748b;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1.1em;
 }
 
 .portfolio-summary.error {
@@ -48,16 +48,16 @@
 
 .summary-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px;
-  margin-bottom: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
 }
 
 .summary-card {
   background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
   border: 1px solid rgba(226, 232, 240, 0.8);
-  border-radius: 8px;
-  padding: 12px;
+  border-radius: 16px;
+  padding: 24px;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -69,7 +69,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 3px;
   background: #e2e8f0;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -103,27 +103,27 @@
 }
 
 .card-header h4 {
-  margin: 0 0 8px 0;
+  margin: 0 0 16px 0;
   color: #1e293b;
-  font-size: 0.85rem;
+  font-size: 1.1em;
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .card-header h4::before {
   content: '';
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: #64748b;
 }
 
 .card-value {
-  font-size: 1.5rem;
+  font-size: 2.5em;
   font-weight: 800;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: #0f172a;
   line-height: 1.1;
@@ -141,14 +141,14 @@
 }
 
 .percentage {
-  font-size: 1rem;
+  font-size: 1.3em;
   font-weight: 700;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   display: inline-flex;
   align-items: center;
-  gap: 3px;
-  padding: 3px 8px;
-  border-radius: 12px;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 20px;
   backdrop-filter: blur(10px);
 }
 
@@ -174,10 +174,10 @@
 }
 
 .card-details {
-  margin-top: 12px;
+  margin-top: 20px;
   background: rgba(248, 250, 252, 0.6);
-  padding: 8px;
-  border-radius: 6px;
+  padding: 16px;
+  border-radius: 12px;
   border: 1px solid rgba(226, 232, 240, 0.5);
 }
 
@@ -185,9 +185,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6px;
-  font-size: 0.8rem;
-  padding: 4px 0;
+  margin-bottom: 12px;
+  font-size: 0.95em;
+  padding: 8px 0;
   border-bottom: 1px solid rgba(226, 232, 240, 0.3);
 }
 

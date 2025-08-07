@@ -47,6 +47,9 @@ function Navbar() {
           <Link to="/test-trading">Test Trading</Link>
         </li>
         <li>
+          <Link to="/ai">AI</Link>
+        </li>
+        <li>
           <button onClick={handleLogout} className="navbar-logout-btn">
             Logout
           </button>
