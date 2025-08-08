@@ -1,4 +1,4 @@
-https://www.canva.com/design/DAGvdLL_rbk/6-zzkWEASK_JbgquMtsKQg/edit?ui=e30
+https://www.canva.com/design/DAGvdLL_rbk/6-zzkWEASK_JbgquMtsKQg/edit?utm_content=DAGvdLL_rbk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 # TradeNom - Next-Gen Trading Platform
 
 ## Overview
