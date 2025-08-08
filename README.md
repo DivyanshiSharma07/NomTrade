@@ -1,3 +1,4 @@
+https://www.canva.com/design/DAGvdLL_rbk/6-zzkWEASK_JbgquMtsKQg/edit?ui=e30
 # TradeNom - Next-Gen Trading Platform
 
 ## Overview
